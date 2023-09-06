@@ -1,0 +1,49 @@
+/*styles.css*/
+body {
+    font-family: 'Times New Roman', Georgia, Serif;
+    margin: 0; /*Remove default margin*/
+    padding: 0; /*Remove default padding*/
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /*Semi-transparent background*/
+    color: white; /*Text color*/
+    padding: 20px;
+}
+
+.background {
+    background-image: url('coffee\ beans.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.8); /*Semi-transparent background*/
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.menu h2 {
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
