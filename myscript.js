@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to close the sidebar
     closeButton.addEventListener('click', function () {
-        sidebar.style.left = '-200px';
+        sidebar.style.left = '-100%';
     });
 });
