@@ -3,6 +3,7 @@ body {
     font-family: 'Times New Roman', Georgia, Serif;
     margin: 0; /*Remove default margin*/
     padding: 0; /*Remove default padding*/
+    color: black;
 }
 
 header {
