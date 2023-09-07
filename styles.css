@@ -54,9 +54,10 @@ header {
     left: -100%;
     width: 40vw;
     height: 100%;
-    background-color: #333;
+    background-color: #3a180686;
     transition: left 0.3s ease-in-out;
     z-index: 1;
+    backdrop-filter: blur(40px);
 }
 
 .sidebar ul {
