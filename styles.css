@@ -1,14 +1,19 @@
 body {
-    font-family: 'Times New Roman', Georgia, Serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 2vh;
+    text-align: center;
+    border-radius: 2vh;
 }
 
 .background {
@@ -17,6 +22,17 @@ header {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+}
+
+.title {
+    font-size: 6vh;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 4vh;
+    text-align:center;
 }
 
 .menu {
@@ -85,6 +101,23 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0); /* Transparent background */
-    display: none; /* Initially hidden */
+    background: rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.open-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+}
+
+.open-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
 }
