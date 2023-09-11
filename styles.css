@@ -32,7 +32,7 @@ header {
 
 .subtext {
     font-size: 4vh;
-    text-align:center;
+    text-align: center;
 }
 
 .menu {
@@ -67,12 +67,12 @@ header {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 40vw;
+    width: 20vw;
     height: 100%;
-    background-color: #3a180686;
+    background-color: rgba(128, 128, 128, 0.348);
     transition: left 0.3s ease-in-out;
     z-index: 1;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(30px);
 }
 
 .sidebar ul {
@@ -88,10 +88,15 @@ header {
 .sidebar button {
     width: 100%;
     padding: 2vh;
-    background-color: #555;
+    background-color: transparent;
     color: white;
-    border: none;
+    border: 0 solid;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #333;
 }
 
 #overlay {
